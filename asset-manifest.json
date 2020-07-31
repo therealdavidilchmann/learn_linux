@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/therealdavidilchmann/learn_linux/static/css/main.e0268d86.chunk.css",
-    "main.js": "/therealdavidilchmann/learn_linux/static/js/main.b34160a7.chunk.js",
-    "main.js.map": "/therealdavidilchmann/learn_linux/static/js/main.b34160a7.chunk.js.map",
-    "runtime-main.js": "/therealdavidilchmann/learn_linux/static/js/runtime-main.a26719f2.js",
-    "runtime-main.js.map": "/therealdavidilchmann/learn_linux/static/js/runtime-main.a26719f2.js.map",
-    "static/js/2.0b99c7fe.chunk.js": "/therealdavidilchmann/learn_linux/static/js/2.0b99c7fe.chunk.js",
-    "static/js/2.0b99c7fe.chunk.js.map": "/therealdavidilchmann/learn_linux/static/js/2.0b99c7fe.chunk.js.map",
-    "index.html": "/therealdavidilchmann/learn_linux/index.html",
-    "precache-manifest.5428dadb24eba081b6f83439d132c791.js": "/therealdavidilchmann/learn_linux/precache-manifest.5428dadb24eba081b6f83439d132c791.js",
-    "service-worker.js": "/therealdavidilchmann/learn_linux/service-worker.js",
-    "static/css/main.e0268d86.chunk.css.map": "/therealdavidilchmann/learn_linux/static/css/main.e0268d86.chunk.css.map",
-    "static/js/2.0b99c7fe.chunk.js.LICENSE.txt": "/therealdavidilchmann/learn_linux/static/js/2.0b99c7fe.chunk.js.LICENSE.txt"
+    "main.css": "/learn_linux/static/css/main.e0268d86.chunk.css",
+    "main.js": "/learn_linux/static/js/main.d0bbcc99.chunk.js",
+    "main.js.map": "/learn_linux/static/js/main.d0bbcc99.chunk.js.map",
+    "runtime-main.js": "/learn_linux/static/js/runtime-main.eae6ae72.js",
+    "runtime-main.js.map": "/learn_linux/static/js/runtime-main.eae6ae72.js.map",
+    "static/js/2.0b99c7fe.chunk.js": "/learn_linux/static/js/2.0b99c7fe.chunk.js",
+    "static/js/2.0b99c7fe.chunk.js.map": "/learn_linux/static/js/2.0b99c7fe.chunk.js.map",
+    "index.html": "/learn_linux/index.html",
+    "precache-manifest.5fbc7e955d0a6eb47978e2acb0609a0b.js": "/learn_linux/precache-manifest.5fbc7e955d0a6eb47978e2acb0609a0b.js",
+    "service-worker.js": "/learn_linux/service-worker.js",
+    "static/css/main.e0268d86.chunk.css.map": "/learn_linux/static/css/main.e0268d86.chunk.css.map",
+    "static/js/2.0b99c7fe.chunk.js.LICENSE.txt": "/learn_linux/static/js/2.0b99c7fe.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a26719f2.js",
+    "static/js/runtime-main.eae6ae72.js",
     "static/js/2.0b99c7fe.chunk.js",
     "static/css/main.e0268d86.chunk.css",
-    "static/js/main.b34160a7.chunk.js"
+    "static/js/main.d0bbcc99.chunk.js"
   ]
 }

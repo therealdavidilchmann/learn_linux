@@ -1,25 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+import Home from './components/Home';
+import Card from "./components/Card";
+
+import { data } from "./data/commands";
+
+const findCategories = () => {
+  var currCategories = [];
+  
+  data.forEach(command => {
+    if (!currCategories.includes(command.category)) { currCategories.push(command.category) }
+  });
+
+  return currCategories;
+}
 
 function App() {
+  const [commands, setCommands] = useState(data);
+  const [categories, setCategories] = useState(findCategories);
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Switch>
+          <Route exact path="/" render={props => <Home {...props} categories={categories} />} />
+          <Route exact path="/card/:id" render={props => <Card {...props} commands={commands} />} />
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

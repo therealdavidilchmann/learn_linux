@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.home {
+  background-color: #969696;
+  padding: 6px;
+}
+/*# sourceMappingURL=home.css.map */
